@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale-1.0, user-scalable=no" />
+<!-- <meta name="viewport" content="width=1920, user-scalable=no"> -->
+<meta name="title" content="동국제강 멀티미디어 자료실">
+<meta name="format-detection" content="telephone=no">
+<title>리스트</title>
+<link rel="SHORTCUT ICON" href="assets/images/favicon.png" />
+
+<link rel="stylesheet" type="text/css" href="assets/font/font.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/nice-select.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/swiper.css" media="ALL" />
+ <!--FONTAWESOME STYLE -->
+<link href="assets/fontawesome-free-6.2.0-web/css/fontawesome.min.css" rel="stylesheet">
+<link href="assets/fontawesome-free-6.2.0-web/css/solid.min.css" rel="stylesheet">
+
+<script type="text/javascript" src="assets/js/jquery-3.6.1.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script type="text/javascript" src="assets/js/swiper.js"></script>
+<script type="text/javascript" src="assets/js/jquery.nice-select.min.js"></script>
+
+</head>
+
+<div id="wrapper" class="main_all">
+	<div class="indx_content">
+		<h1><img src="images/index_logo.png" alt="인덱스로고"></h1>
+		<ul class="indx_nav">
+			<li class="active"> <a href="list.html">동국홀딩스</a> </li>
+			<li> <a href="list.html">동국제강</a> </li>
+			<li> <a href="list.html">동국씨엠</a> </li>
+			<li> <a href="list.html">인터지스</a> </li>
+			<li> <a href="list.html">동국시스템즈</a> </li>
+			<li> <a href="list.html">페럼인프라</a> </li>
+		</ul>
+		<div class="indx_sech">
+			<input type="text" placeholder="검색어를 입력하세요."> <button><i class="fa-solid fa-magnifying-glass"></i></button>
+		</div>
+		<div class="indx_body">
+			<ul class="body_nav">
+				<li> <button>자주찾는사진</button></li>
+				<li> <button class="on">브로슈어</button></li>
+				<li> <button>CI 그룹공통양식</button></li>
+				<li> <button>그룹 홍보영상</button></li>
+				<li> <button>보도자료</button></li>
+			</ul>
+			<div class="body_list">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide click-photo-img file-item" data-img-url="images/data/img01.jpg" data-index="0" data-cfidx="111">
+							<a href="view.html">
+								<img src="images/img2.jpeg" alt="사진">
+								<div class="text_box"> <p>KS인증 정품 후판 정척재 ‘스틸샵’서 판매 </p></div>
+							</a>
+						</div>
+						<div class="swiper-slide click-photo-img file-item" data-img-url="images/data/img01.jpg" data-index="0" data-cfidx="111">
+							<a href="view.html">
+								<img src="images/img11.png" alt="사진">
+								<div class="text_box"><p>2023 지속가능 경영보고서 2023 지속가능 경영보고서2023 지속가능 경영보고서</p></div>
+							</a>
+						</div>
+						<div class="swiper-slide click-photo-img file-item" data-img-url="images/data/img01.jpg" data-index="0" data-cfidx="111">
+							<a href="view.html">
+								<img src="images/img2.jpeg" alt="사진">
+								<div class="text_box"><p>동국제강 클래드 후판  </p></div>
+							</a>
+						</div>
+						<div class="swiper-slide click-photo-img file-item" data-img-url="images/data/img01.jpg" data-index="0" data-cfidx="111">
+							<a href="view.html">
+								<img src="images/img2.jpeg" alt="사진">
+								<div class="text_box"><p>초등학교 입학 예정 임직원 자녀 응원 선물 전달</p></div>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+					  <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+					
+				</div>
+				<script>
+					var swiper = new Swiper(".mySwiper", {
+						slidesPerView: 4,
+						//centeredSlides: true,
+						centeredSlides: false,
+						//slidesPerGroupSkip:2,
+						spaceBetween: 22,
+						loof:false,
+						navigation: {
+							nextEl: ".swiper-button-next",
+							prevEl: ".swiper-button-prev",
+							},
+						
+					breakpoints:{
+
+						440: {
+							slidesPerView: 1,
+							spaceBetween: 10,
+						},
+
+						768: {
+							slidesPerView: 2,
+							spaceBetween: 10,
+						},
+
+						1200: {
+							slidesPerView: 3,
+							spaceBetween: 10,
+							// navigation: {
+							// nextEl: ".swiper-button-next",
+							// prevEl: ".swiper-button-prev",
+							// },
+						},
+						
+					}
+					});
+				</script>
+			</div>
+		</div>
+
+
+	</div>
+	<div id="footer" class="footer_all">
+		<ul>
+			<li>시스템 관리자     </li>
+			<li>TEL 02-317-1114     </li>
+			<li>E-mail  test@test.com    </li>
+		</ul>
+		<p class="copyright">
+			COPYRIGHT© 2023 DONGKUKSTEEL MILL CO., LTD. ALL RIGHTS RESERVED.     
+		</p>
+	</div>
+</div>
+
+
+
+
+<script>
+
+				
+					
+</script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-touch-callout:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,header,section,footer { margin:0; padding:0; }
+
+
+body {font-weight: 400;font-size:16px;letter-spacing:-0.5px;word-break:keep-all;font-family: 'Pretendard',sans-serif,Noto Sans CJK KR,Noto Sans KR,Malgun Gothic,맑은 고딕,Dotum,Verdana;color:#202020}
+html,body{width:100%;height:100%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;font-kerning:none}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,canvas,details,figcaption,figure,main,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {border:0;outline:0;background:transparent;font-size:100%}
+table,caption,tbody,tfoot,thead,tr,th,td {outline:0;background:transparent;font-size:100%}
+article,aside,canvas,details,figcaption,figure,main,footer,header,hgroup,menu,nav,section,summary {display:block}
+nav, ul {list-style:none}
+blockquote,q {quotes:none}
+blockquote:before,blockquote:after,q:before,q:after {content:"";content:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{	display: block}
+em , i , strong  {font-weight: normal;font-style: normal;}
+
+
+
+video{-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100}
+select,input,button,textarea,button{font-family: 'Pretendard',sans-serif,Noto Sans CJK KR,Noto Sans KR,Malgun Gothic,맑은 고딕,Dotum,Verdana}
+
+
+a {margin:0;padding:0;border:0;font-size:inherit; color:inherit; text-decoration:none;color:inherit;transition: 0.5s;}
+a:active, a:hover, a:focus { text-decoration:none; color:inherit;}
+a, button{background: transparent;cursor:pointer;text-decoration:none;-webkit-text-size-adjust:none;color:inherit;outline:0;-webkit-transition:all .5s ease;transition:all .5s ease}
+a:link,a:active,a:visited,a:focus,a:hover, button:hover{cursor:pointer;text-decoration:none;-webkit-transition:all .5s ease;transition:all .5s ease}
+a:active,a:hover {outline: 0}
+button, input{border:none}
+
+
+
+input, label{vertical-align:middle}
+/* input {line-height: normal;-webkit-appearance: none;-moz-appearance: none;	appearance: none} */
+input:focus {outline: 0}
+input::-ms-clear { display: none; }
+::placeholder {color: #b6b8bb !important}
+::-webkit-input-placeholder {color: #b6b8bb !important}
+:-ms-input-placeholder {color: #b6b8bb !important}
+input[readonly] {background-color:  inherit !important}
+input{background-color:  inherit !important}
+textarea {width: 100%;border:1px solid #666;}
+option{font-size: 15px !important;color: #666 !important;}
+
+/* 이미지 요소 기본 */
+img {vertical-align:middle;max-width: 100%;height: auto;vertical-align: middle;border:0;-ms-interpolation-mode:bicubic;-webkit-tap-highlight-color:rgba(0,0,0,0) }
+
+/*숨김*/
+.hidden {display:none}
+.blind, .hide {width:1px;height:1px;overflow:hidden;position:absolute;top:-9999em;left:-9999em;display:block;text-indent:-9999em;font-size:0px;line-height:0}
+.skipNav{position:absolute;top:-9999px;background:#fff;width:100%;height:30px;text-align:center;color:#fff;line-height:30px;font-weight:bold;z-index:100;opacity:0.6; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=60)";filter:alpha(opacity=60)}
+.skipNav:hover,.skipNav:focus,.skipNav:active{top:0;color:#fff}
+.clear{clear:both}
+
+/* HTML5 display-role reset for older browsers */
+table{width: 100%;padding:0;margin:0;border-collapse:collapse;border-spacing:0;empty-cells:show;word-break:break-all}
+th, td{padding:0}
+select,input,textarea{box-sizing:border-box}
+textarea{overflow: auto}
+address{font-style: normal}
+video{z-index:9999}
+
+audio,canvas,progress,video {
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
+}
+[hidden],template {display: none;}
+button,input,optgroup,select,textarea {
+	color: inherit; /* 1 */
+	font: inherit; /* 2 */
+	margin: 0; /* 3 */
+}
+button { border:0 none; cursor:pointer;	overflow: visible}
+
+/* input[type="checkbox"]{width:20px;height:20px;vertical-align: middle}
+input[type="radio"]{width:20px;height:20px;margin: 0;vertical-align:middle}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration	{-webkit-appearance: none}
+input[type='tel'],input[type='url'],input[type='number'], input[type='email'], input[type='text'], input[type='password'], input[type="search"] {
+	-webkit-appearance: textfield; 
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height: auto}
+input[type="checkbox"],input[type="radio"] {
+	box-sizing: border-box; 
+	padding: 0; 
+}
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+} */
+
+/* input[type="checkbox"]:checked + label:before {
+	background: #fff url(../images/common/icon-checkbox-on.png) 50% 50% no-repeat;
+	background-size: 11px;
+} */
+/* input[type="checkbox"] + label , input[type="radio"] + label {
+	position: relative;
+	padding-left: 0;
+	margin: 10px 14px 10px 6px;
+	color: #505050;
+} */

@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale-1.0, user-scalable=no" />
+<!-- <meta name="viewport" content="width=1920, user-scalable=no"> -->
+<meta name="title" content="동국제강 멀티미디어 자료실">
+<meta name="format-detection" content="telephone=no">
+<title>리스트</title>
+<link rel="SHORTCUT ICON" href="assets/images/favicon.png" />
+
+<link rel="stylesheet" type="text/css" href="assets/font/font.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="ALL" />
+<link rel="stylesheet" type="text/css" href="assets/css/nice-select.css" media="ALL" />
+ <!--FONTAWESOME STYLE -->
+<link href="assets/fontawesome-free-6.2.0-web/css/fontawesome.min.css" rel="stylesheet">
+<link href="assets/fontawesome-free-6.2.0-web/css/solid.min.css" rel="stylesheet">
+
+<script type="text/javascript" src="assets/js/jquery-3.6.1.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<!-- <script type="text/javascript" src="js/all.js"></script> -->
+<script type="text/javascript" src="assets/js/jquery.nice-select.min.js"></script>
+
+</head>
+
+<div id="wrapper" class="sub_all">
+	<!-- 로딩중 -->
+	<div class="loading">
+		<div class="loading_in">
+			<span>로딩중</span>
+			<div class="circle"></div>
+			
+		</div>
+		<div class="loading-bg"> </div>
+	</div>
+	<!-- //로딩중 -->
+	<!--  헤더 -->
+	<div id="header" class="header_all">
+		<div class="header_inner">
+			<h2> <a href="index.html"><img src="images/sub_logo_top.png" alt="서브로고"></a>  </h2>
+			<div class="nav_box">
+				<ul class="deps1">
+					<li class="btns"> 
+						<a href="#none">자료실 <i class="fa-solid fa-chevron-down"></i></a>
+						<ul class="deps2 sidebar">
+							<li><a href="list.html">사진</a></li>
+							<li><a href="list.html">영상</a></li>
+							<li><a href="list.html">인쇄물</a></li>
+							<li><a href="list.html" class="active">기타</a></li>
+						</ul>
+						<script>
+						
+						</script>
+					</li>
+					<li> <a href="serch01.html"><i class="fa-solid fa-magnifying-glass"></i>검색</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="section" class="section_all">
+		<div class="subTop_inner">
+			<div class="inner">
+				<h3>자료실</h3>
+				<ul class="location_box">
+					<li> <a href=index.html> <i class="fa-solid fa-house"></i> </a></li>
+					<li> <a href=list.html> 자료실 </a></li>
+					<li> <a href=list.html> 목록 </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content_inner list">
+			<div class="serch_box">
+				<div class="item item1">
+					<strong>유형</strong>
+					<div class="item_bx">
+						<ul>
+							<li><button class="active">사진</button></li>
+							<li><button>영상</button></li>
+							<li><button>인쇄물</button></li>
+							<li><button>기타</button></li>
+						</ul>
+					</div>
+				</div>
+				<div class="item item2">
+					<strong>분류</strong>
+					<div class="item_bx">
+						<ul>
+							<li class="check_st"> <input type="checkbox" id="name01"> <label for="name01" class="check-style">사진 &gt; 행사 </label> </li>
+							<li class="check_st"> <input type="checkbox" id="name02"> <label for="name02" class="check-style">사진 &gt; 행사 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name03"> <label for="name03" class="check-style">사진 &gt; 행사 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name04"> <label for="name04" class="check-style">사진 &gt; 행사 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name05"> <label for="name05" class="check-style">사진 &gt; 행사 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name06"> <label for="name06" class="check-style">사진 &gt; 행사 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name07"> <label for="name07" class="check-style">사진 &gt; 행사 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name08"> <label for="name08" class="check-style">사진 &gt; 행사 </label></li>
+						</ul>
+						<ul>
+							<li class="check_st"> <input type="checkbox" id="name09"> <label for="name09" class="check-style">사진 &gt; 행사 &gt; 기념식 </label></li>
+							<li class="check_st"> <input type="checkbox" id="name10"> <label for="name10" class="check-style">사진 &gt; 행사 &gt; 기념식 </label></li>
+						</ul>
+					</div>
+				</div>
+				<div class="item item3">
+					<div class="sbox s01">
+						<strong>생산부서</strong>
+						<div class="item_bx">
+							<p><input type="text" placeholder=""><button id="modalBtn" onclick="openModal();" data-btn="btn01"><i class="fa-solid fa-magnifying-glass"></i></button></p> <button class="rotate"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+						</div>
+					</div>
+					<div class="sbox s02">
+						<strong>생산연도</strong>
+						<div class="item_bx">
+							<input type="text" placeholder=""> <span> ~ </span> <input type="text" placeholder="">
+						</div>
+					</div>
+				</div>
+				<div class="item item4">
+					<strong>검색어</strong>
+					<div class="item_bx">
+						<select class="serch_select">
+							<option selected disabled>전체</option>
+							<option value="1">전체 1</option>
+							<option value="2">전체 2</option>
+							<option value="3">전체 3</option>
+							<option value="4">전체 4</option>
+						  </select>
+						  <input type="text" placeholder="검색어를 입력하세요.">
+					</div>
+				</div>
+				<div class="item5">
+					<button>검색</button>
+				</div>
+			</div>
+
+			<div class="list_boxs">
+				<div class="filr">
+					<div class="filr_box">
+						<select class="filr_select">
+							<option selected disabled>최근등록일자</option>
+							<option value="1">최근등록일자</option>
+							<option value="2">최근등록일자</option>
+						</select>
+						<select class="filr_select">
+							<option selected disabled>8개</option>
+							<option value="1">16개</option>
+							<option value="2">24개</option>
+						</select> 
+					</div>
+					<div class="pageNumber">
+						<ul>
+							<li> <button> <i class="fa-solid fa-angles-left"></i> </button>  </li>
+							<li> <button> <i class="fa-solid fa-chevron-left"></i> </button>  </li>
+							<li><input type="text" placeholder="1"> <em>/ 145</em> </li>
+							<li> <button class="active "> <i class="fa-solid fa-chevron-right"></i> </button>  </li>
+							<li> <button class="active ">  <i class="fa-solid fa-angles-right"></i> </button>  </li>
+						</ul>
+					</div>
+				</div>
+				<div class="list_item">
+					<ul>
+						<li>
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img2.jpeg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+					   		</a>
+						</li>
+					   <li> 
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/non_img.png" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+							</a>
+						</li>
+						<li>
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img1.jpg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+					  		</a>
+						</li>
+					   <li>
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img5.jpg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+							</a>
+						</li>
+						<li> 
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img4.jpg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+							</a>
+						</li>
+						<li>
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img1.jpg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+							</a>
+						</li>
+						<li> 
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img6.jpg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+							</a>
+						</li>
+						<li> 
+							<a href="view.html">
+								<div class="img_bx"> <img src="images/img6.jpg" alt="사진"></div>
+								<div class="txt_bx">KS인증 정품 후판 정착제</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="page_btn">
+					<button><i class="fa-solid fa-chevron-left"></i>이전페이지</button>
+					<button>다음페이지<i class="fa-solid fa-chevron-right"></i></button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="footer" class="footer_all">
+		<ul>
+			<li>시스템 관리자     </li>
+			<li>TEL 02-317-1114     </li>
+			<li>E-mail  test@test.com    </li>
+		</ul>
+		<p class="copyright">
+			COPYRIGHT© 2023 DONGKUKSTEEL MILL CO., LTD. ALL RIGHTS RESERVED.     
+		</p>
+	</div>
+</div>
+
+<!-- 모달창 띄우기 -->
+<div id="myModal" class="modal search-modal">
+	<div class="modal-content">
+		<div class="txt-box">
+			<p class="title_tx">생산부서 검색</p>
+			<div class="s_serch">
+				<input type="text" placeholder="부서명을 입력하세요">
+				<button>검색</button>
+			</div>
+			<div class="table_bx">
+				<table summary="111,222" cellpadding="0" cellspacing="0" class="tbl_style">
+					<caption class="hidden">생산부서검색</caption>
+					<colgroup>
+					<col width="110px">
+					<col width="*">
+					<col width="110px">
+					</colgroup>
+					<thead>
+					  <tr>
+						<th scope="col">부서고드</th>
+						<th scope="col">전체부서명</th>
+						<th scope="col" class="br_right">부서명</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td>0000001</td>
+						<td>동국제강 > 커뮤니케이션팀</td>
+						<td class="br_right">커뮤니케이션팀</td>
+					  </tr>
+					  <tr>
+						<td>0000001</td>
+						<td>동국제강 > 커뮤니케이션팀</td>
+						<td class="br_right">커뮤니케이션팀</td>
+					  </tr>
+					  <tr>
+						<td>0000001</td>
+						<td>동국제강 > 커뮤니케이션팀</td>
+						<td class="br_right">커뮤니케이션팀</td>
+					  </tr>
+					</tbody>
+				  </table>
+			</div>
+			<div class="pageNumber">
+				<ul>
+					<li> <button> <i class="fa-solid fa-angles-left"></i> </button>  </li>
+					<li> <button> <i class="fa-solid fa-chevron-left"></i> </button>  </li>
+					<li><input type="text" placeholder="1"> <em>/ 145</em> </li>
+					<li> <button class="active "> <i class="fa-solid fa-chevron-right"></i> </button>  </li>
+					<li> <button class="active ">  <i class="fa-solid fa-angles-right"></i> </button>  </li>
+				</ul>
+			</div>
+
+		</div>
+		<span class="close-modal"><a class="close" onclick="CloseModal();">닫기</a></span>
+	</div>
+	<div id="dark01" class="modalPopup-bg"> </div>
+</div>
+<!-- //모달창 띄우기 -->
+
+
+
+<script>
+
+//모달창 띄우기
+let modal = document.getElementById('myModal');
+var modalbg = document.getElementById("dark01");
+
+modalbg.onclick = function() {
+	modal.classList.remove('active')
+						}
+console.log(btntn)
+
+function openModal() {
+  modal.classList.add('active')
+  
+}
+function CloseModal() {
+  modal.classList.remove('active')
+  
+}
+					
+						
+					
+</script>
+</body>
+</html>
+
+
+
+
